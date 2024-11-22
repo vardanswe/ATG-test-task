@@ -1,7 +1,8 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import betTypeReducer from './slices/betTypeSlice';
 
 const rootReducer = combineReducers({
-    betType: {},
+    betType: betTypeReducer,
 });
 
 export const store = configureStore({
