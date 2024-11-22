@@ -32,6 +32,7 @@ const BetTypeSelector: React.FC = () => {
                 Bet Type:
             </label>
             <select
+                id='betType'
                 onChange={handleSelect}
                 value={selectedBetType || ''}
                 className="border border-gray-300 rounded-md p-2 text-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none"
