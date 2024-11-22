@@ -27,5 +27,6 @@ describe('App Component', () => {
     });
 
     expect(screen.getByLabelText('Bet Type:')).toBeInTheDocument();
+    expect(screen.getByText('Races')).toBeInTheDocument();
   });
 });

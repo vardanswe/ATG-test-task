@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RaceDetails Component matches snapshot 1`] = `
+<div>
+  <div
+    class="race-details bg-white shadow rounded-lg p-4"
+  >
+    <table
+      class="w-full table-auto border-collapse border border-gray-200"
+    >
+      <thead
+        class="bg-gray-100"
+      >
+        <tr>
+          <th
+            class="border border-gray-300 px-4 py-2 text-left text-gray-600"
+          >
+            Number
+          </th>
+          <th
+            class="border border-gray-300 px-4 py-2 text-left text-gray-600"
+          >
+            Horse Name
+          </th>
+          <th
+            class="border border-gray-300 px-4 py-2 text-left text-gray-600"
+          >
+            Driver
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          aria-expanded="false"
+          class="cursor-pointer hover:bg-gray-50 "
+        >
+          <td
+            class="border border-gray-300 px-4 py-2"
+          >
+            1
+          </td>
+          <td
+            class="border border-gray-300 px-4 py-2"
+          >
+            Lightning Bolt
+          </td>
+          <td
+            class="border border-gray-300 px-4 py-2"
+          >
+            Jane
+             
+            Smith
+          </td>
+        </tr>
+        <tr
+          aria-expanded="false"
+          class="cursor-pointer hover:bg-gray-50 "
+        >
+          <td
+            class="border border-gray-300 px-4 py-2"
+          >
+            2
+          </td>
+          <td
+            class="border border-gray-300 px-4 py-2"
+          >
+            Storm Chaser
+          </td>
+          <td
+            class="border border-gray-300 px-4 py-2"
+          >
+            Mike
+             
+            Johnson
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 
 const BetTypeSelector = React.lazy(() => import('./components/BetTypeSelector/BetTypeSelector'));
+const RaceList = React.lazy(() => import('./components/RaceList/RaceList'));
 
 const App: React.FC = () => {
     return (
@@ -11,6 +12,9 @@ const App: React.FC = () => {
             <main className="p-6">
                 <Suspense fallback={<p>Loading Bet Type Selector...</p>}>
                     <BetTypeSelector />
+                </Suspense>
+                <Suspense fallback={<p>Loading Races...</p>}>
+                    <RaceList />
                 </Suspense>
             </main>
         </div>
